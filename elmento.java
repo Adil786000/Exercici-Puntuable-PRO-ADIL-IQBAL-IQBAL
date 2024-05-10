@@ -8,6 +8,8 @@ public class Elemento {
         this.nombre = nombre;
         this.descripción = descripción;
     }
+  // Método para cargar el elemento desde XML
+    public static Elemento fromXML(File file) throws IOException {
 
     
 }
