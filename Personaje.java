@@ -17,7 +17,7 @@ public class Personaje {
         this.arma = arma;
         this.armadura = armadura;
     }
-    //Metodos para cargar el personaje desde XML
+    //Metodos para cargar el personaje desde XML.
     public static Personaje fromXML(File file) throws  IOException {
         DocumentBuilderFactory Factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
