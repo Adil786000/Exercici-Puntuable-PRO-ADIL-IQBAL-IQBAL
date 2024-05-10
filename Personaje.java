@@ -26,11 +26,11 @@ public class Personaje {
         Element rootElement = document.getDocumentElement();
         NodeList nodeNombre = rootElement .getChildNodes();
 
-        for (int)
-
-
-
-
+        for (int i = 0; i < personajes.getLength(); i++) {
+            Element personajeElement = n(Element) personajes.item(i);
+            if (personajeElement.getTagName().equals("personaje")) {
+                String 
+            }
 
 
 
