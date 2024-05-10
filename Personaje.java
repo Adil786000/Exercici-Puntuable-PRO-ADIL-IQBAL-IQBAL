@@ -29,8 +29,27 @@ public class Personaje {
         for (int i = 0; i < personajes.getLength(); i++) {
             Element personajeElement = n(Element) personajes.item(i);
             if (personajeElement.getTagName().equals("personaje")) {
-                String 
+                String nombre =
+personajeElement.getChildNodes().item(0).getTextContent();
+                int niveles =
+Integer.parseInt(personajeElement.getChildNodes().item(1).getTextContent());
+                int puntosDeVida = 
+Integer.parseInt(personajeElement.getChildNodes().item(2).getTextContent());
+                int puntosDeMana = 
+Integer.parseInt(personajeElement.getChildNodes().item(3).getTextContent());
+                String arma =
+personajeElement.getChildNodes().item(4).getTextContent();
+                String armadura = 
+personajeElement getChildNodes().item(5).getTextContent();
+
+                return new Personaje(nombre, niveles, puntosDeVida, 
+puntosDeMana, arma, armadura);
             }
+        }
+
+        return null;
+     }
+  }
 
 
 
@@ -39,4 +58,3 @@ public class Personaje {
 
 
 
-}
