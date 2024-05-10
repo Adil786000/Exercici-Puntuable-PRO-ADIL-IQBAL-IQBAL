@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personajes>
+  <personaje id="1">
+    <nombre>Jugador 1</nombre>
+    <nivel>1</nivel>
+    <puntos_vida>100</puntos_vida>
+    <puntos_mana>100</puntos_mana>
+    <arma>Fuerza</arma>
+    <armadura>Escudo</armadura>
+  </personaje>
+  <personaje id="2">
+    <nombre>Jugador 2</nombre>
+    <nivel>2</nivel>
+    <puntos_vida>200</puntos_vida>
+    <puntos_mana>200</puntos_mana>
+    <arma>Magia</arma>
+    <armadura>Manto</armadura>
+  </personaje>
+</personajes>

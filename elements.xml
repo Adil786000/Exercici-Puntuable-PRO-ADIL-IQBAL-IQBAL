@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+  <element id="1">
+    <nombre>Fuego</nombre>
+    <descripcion>Elemento de Fuego</descripcion>
+  </element>
+  <element id="2">
+    <nombre>Aire</nombre>
+    <descripcion>Elemento de Aire</descripcion>
+  </element>
+  <element id="3">
+    <nombre>Tierra</nombre>
+    <descripcion>Elemento de Tierra</descripcion>
+  </element>
+</elements>
